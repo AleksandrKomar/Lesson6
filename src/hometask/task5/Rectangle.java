@@ -7,10 +7,10 @@ public class Rectangle {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Задайте высоту прямоугольника h = ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ РІС‹СЃРѕС‚Сѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° h = ");
         int h = input.nextInt();
 
-        System.out.print("Задайте длину прямоугольника l = ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ РґР»РёРЅСѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° l = ");
         int l = input.nextInt();
 
         for (int i = 0; i < h; i++) {

@@ -15,15 +15,15 @@ public class Main {
 
     static void rectangle(Scanner input) {
 
-        System.out.print("Задайте высоту прямоугольника h = ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ РІС‹СЃРѕС‚Сѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° h = ");
         int h = input.nextInt();
 
-        System.out.print("Задайте длину прямоугольника l = ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ РґР»РёРЅСѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° l = ");
         int l = input.nextInt();
 
-        System.out.println("------Прямоугольник------------");
+        System.out.println("------РџСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє------------");
 
-        //////////////////вывод прямоугольника///////////////
+        //////////////////РІС‹РІРѕРґ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР°///////////////
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < l; j++) {
                 System.out.print("*");
@@ -34,12 +34,12 @@ public class Main {
     }
     static void rightTriangle(Scanner input) {
 
-        System.out.print("Задайте высоту прямоугольного треугольника h = ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ РІС‹СЃРѕС‚Сѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° h = ");
         int h1 = input.nextInt();
 
-        System.out.println("------Прямоугольный треугольник------------");
+        System.out.println("------РџСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє------------");
 
-        //////////////////вывод прямоугольного треугольника//////////////
+        //////////////////РІС‹РІРѕРґ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°//////////////
         for (int i = 0; i < h1; i++) {
             for (int j = 0; j <= i; j++) {
                 System.out.print("*");
@@ -49,10 +49,10 @@ public class Main {
         System.out.println();
     }
     static void equilateralTriangle(Scanner input) {
-        System.out.print("Задайте высоту равностороннего треугольника h = ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ РІС‹СЃРѕС‚Сѓ СЂР°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРµРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° h = ");
         int l1 = input.nextInt();
 
-        System.out.println("------Равносторонний треугольник------------");
+        System.out.println("------Р Р°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє------------");
 
         for (int i = 1; i <= l1; i++) {
             for (int j = l1; j > i; j--) {
@@ -68,10 +68,10 @@ public class Main {
     }
     static void rhombus(Scanner input) {
 
-        System.out.print("Задайте длину ромба l = ");
+        System.out.print("Р—Р°РґР°Р№С‚Рµ РґР»РёРЅСѓ СЂРѕРјР±Р° l = ");
         int l2 = input.nextInt();
 
-        System.out.println("------Ромб------------");
+        System.out.println("------Р РѕРјР±------------");
 
         if (l2 % 2 == 0) {
             l2++;

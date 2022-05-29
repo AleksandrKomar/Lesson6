@@ -7,7 +7,7 @@ public class Delivery {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Введите количество клиентов, для расчета доставки = ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РєР»РёРµРЅС‚РѕРІ, РґР»СЏ СЂР°СЃС‡РµС‚Р° РґРѕСЃС‚Р°РІРєРё = ");
         int n = input.nextInt();
 
         int factoril = 1;
@@ -16,7 +16,7 @@ public class Delivery {
             factoril *= n--;
         } while (n > 0);
 
-        System.out.println("Количество возможных вариантов доставки - " + factoril + ".");
+        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РІРѕР·РјРѕР¶РЅС‹С… РІР°СЂРёР°РЅС‚РѕРІ РґРѕСЃС‚Р°РІРєРё - " + factoril + ".");
 
     }
 }
